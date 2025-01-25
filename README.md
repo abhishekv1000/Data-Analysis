@@ -1,47 +1,47 @@
-eCommerce Data Science Assignment
-Overview
+# eCommerce Data Science Assignment
+
+## Overview
 This repository contains the solution for the eCommerce Data Science assignment. The task involves:
 
-Exploratory Data Analysis (EDA) to understand the dataset.
-Building a Lookalike Model to recommend similar customers.
-Customer Segmentation using clustering techniques.
-Tasks
-Task 1: EDA & Business Insights
-Perform data cleaning and visualization (monthly sales, top-selling products, sales by region).
-Derive 5 business insights based on the analysis.
-Files:
+- **Exploratory Data Analysis (EDA)** to understand the dataset.
+- **Building a Lookalike Model** to recommend similar customers.
+- **Customer Segmentation** using clustering techniques.
 
-FirstName_LastName_EDA.ipynb (Code for EDA)
-FirstName_LastName_EDA.pdf (Business insights)
-Task 2: Lookalike Model
-Build a model that recommends 3 similar customers based on transaction history and profile.
-Output is stored in FirstName_LastName_Lookalike.csv.
-Files:
+## Tasks
 
-FirstName_LastName_Lookalike.ipynb (Code for Lookalike model)
-FirstName_LastName_Lookalike.csv (Similar customers for the first 20)
-Task 3: Customer Segmentation
-Perform clustering to segment customers using KMeans.
-Calculate clustering metrics (e.g., DB Index).
-Files:
+### Task 1: EDA & Business Insights
+- Perform data cleaning and visualization (monthly sales, top-selling products, sales by region).
+- Derive 5 business insights based on the analysis.
 
-FirstName_LastName_Clustering.ipynb (Code for segmentation)
-FirstName_LastName_Clustering.pdf (Clustering results)
-Requirements
-pandas, matplotlib, seaborn, sklearn, numpy
-Install libraries using:
+**Files:**
+- `FirstName_LastName_EDA.ipynb` (Code for EDA)
+- `FirstName_LastName_EDA.pdf` (Business insights)
 
-bash
-Copy
+### Task 2: Lookalike Model
+- Build a model that recommends 3 similar customers based on transaction history and profile.
+- Output is stored in `FirstName_LastName_Lookalike.csv`.
+
+**Files:**
+- `FirstName_LastName_Lookalike.ipynb` (Code for Lookalike model)
+- `FirstName_LastName_Lookalike.csv` (Similar customers for the first 20)
+
+### Task 3: Customer Segmentation
+- Perform clustering to segment customers using KMeans.
+- Calculate clustering metrics (e.g., DB Index).
+
+**Files:**
+- `FirstName_LastName_Clustering.ipynb` (Code for segmentation)
+- `FirstName_LastName_Clustering.pdf` (Clustering results)
+
+## Requirements
+
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `sklearn`
+- `numpy`
+
+### Install libraries using:
+
+```bash
 pip install pandas matplotlib seaborn scikit-learn numpy
-How to Run
-Clone or download the repo.
-Install the required libraries.
-Open and run the .ipynb files in Jupyter Notebook or any Python IDE.
-Submit the output PDF reports.
-Evaluation Criteria
-EDA: Quality of analysis and insights.
-Lookalike Model: Accuracy and relevance of recommendations.
-Clustering: Quality of segmentation and metrics.
-Good luck!
-
